@@ -1,0 +1,43 @@
+/* Cabeçalhos */
+.ui.header{
+    text-shadow: 5px 5px 5px #FF0000;
+    padding-bottom: 15px;
+    -webkit-transition: width 4s;
+    transition: width 4s;
+    animation-delay: 2s;
+}
+
+.ui.header:hover {
+    text-shadow: 5px 5px 5px #0e0d0d;
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+/* Descrição */
+p{
+    text-indent: 20px;
+    text-align: center;
+    border:2px dotted rgb(71, 68, 68);
+}
+
+/* Lista */
+li{
+    list-style-type: circle;
+    color: rgb(71, 68, 68);
+    text-align: justify;
+}
+
+/* Pontuação */
+.ui.centered.card{
+    margin-bottom: 2em;
+}
+
+#gameBonus{
+    text-align: end;
+}
+
+/* Rodape */
+#rodape{
+    margin-top: 3em;
+}
