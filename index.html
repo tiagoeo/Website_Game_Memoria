@@ -177,52 +177,68 @@
     <!-- // Main -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+        <script type="text/javascript" src="static/js/game.js"></script>
         <script>    
             $("#btnExtra").hide();
       
             $("#btnComecar").click(function(){
-            });
-      
+                iniciar('novo_jogo');
+			});
+
             $("#btnNovaFase").click(function(){
-            });
-      
+                iniciar('nova_fase');
+			});
+
             $("#btnSair").click(function(){
-            });
-      
+                resetGame('total');
+			});
+
             $("#btn0").click(function(){
+                game('#btn0');
             });
-      
+
             $("#btn1").click(function(){
-            });
-      
+                game('#btn1');
+			});
+
             $("#btn2").click(function(){
+                game('#btn2');
             });
-      
+
             $("#btn3").click(function(){
+                game('#btn3');
             });
-      
+
             $("#btn4").click(function(){
+                game('#btn4');
             });
-      
+
             $("#btn5").click(function(){
+                game('#btn5');
             });
-      
+
             $("#btn6").click(function(){
+                game('#btn6');
             });
-      
+
             $("#btn7").click(function(){
+                game('#btn7');
             });
-      
+
             $("#btn8").click(function(){
+                game('#btn8');
             });
-      
+
             $("#btn9").click(function(){
+                game('#btn9');
             });
-      
+
             $("#btn10").click(function(){
+                game('#btn10');
             });
-      
+
             $("#btn11").click(function(){
+                game('#btn11');
             });
         </script>
     </body>
