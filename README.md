@@ -10,7 +10,7 @@
 
 <hr><h2 align="left">SOBRE</h2>
 <p align="left">
-  Jogo disponível no <a href="https://tiagoeo.github.io/website_game_memoria/">github-pages</a>
+  Jogo disponível no <a href="https://tiagoeo.github.io/Website_Game_Memoria/">github-pages</a>
 </p>
 <p align="left">
   Esta versão simples de jogo da memória faz parte de um projeto de site educacional, cujo objetivo é ajudar as pessoas a melhorar a concentração, o raciocínio lógico e estimular a memória.
